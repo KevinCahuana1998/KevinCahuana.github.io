@@ -89,3 +89,55 @@
     background-color: #343a40;
     color: white;
 }
+
+.redes-sociales {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.redes-sociales a:first-child {
+    width: 120px;
+    height: 120px;
+    margin-left: 10px;
+    background-image: url('./assets/images/fb.png');
+    background-size: 120px 120px;
+}
+
+.redes-sociales a:nth-child(2) {
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    background-image: url('./assets/images/linkedin.png');
+    background-size: 150px 150px;
+}
+
+.redes-sociales a:nth-child(3) {
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    background-image: url('./assets/images/git.png');
+    background-size: 150px 150px;
+}
+
+footer {
+    padding-left: 560px;
+    background-color: #02051f;
+    color: #e3eaff;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 400px;
+    width: 1519.2px;
+    align-items: center;
+    line-height: 1em;
+    letter-spacing: 0.1px;
+}
+
+footer div {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
